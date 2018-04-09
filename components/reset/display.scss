@@ -10,6 +10,17 @@ hr {
   overflow: visible;
 }
 
+p,
+span {
+  span,
+  div,
+  em,
+  sub,
+  sup {
+    display: inline-block;
+  }
+}
+
 details {
   display: block;
 }
@@ -22,6 +33,7 @@ img {
   border-style: none;
 }
 
+head,
 style,
 [hidden] {
   display: none;
