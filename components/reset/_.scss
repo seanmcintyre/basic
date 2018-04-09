@@ -1,0 +1,24 @@
+@import 'display';
+@import 'embeds';
+@import 'forms';
+@import 'typography';
+
+[hidden] {
+  display: none;
+}
+
+*,
+*::before,
+*::after {
+  display: block;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  box-sizing: inherit;
+  outline: 0;
+  text-decoration: none;
+  vertical-align: baseline;
+}

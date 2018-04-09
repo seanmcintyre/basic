@@ -1,0 +1,19 @@
+html {
+  box-sizing: border-box;
+  -ms-overflow-style: scrollbar;
+  -webkit-tap-highlight-color: $webkit-tap-highlight-color;
+}
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+details {
+  display: block;
+}
+
+summary {
+  display: list-item;
+}
