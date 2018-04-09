@@ -17,3 +17,12 @@ details {
 summary {
   display: list-item;
 }
+
+img {
+  border-style: none;
+}
+
+style,
+[hidden] {
+  display: none;
+}
